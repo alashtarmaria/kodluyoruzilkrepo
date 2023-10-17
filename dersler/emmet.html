@@ -1,0 +1,110 @@
+<!-- -----------------HTML I Emmet ile Daha Hızlı HTML Yapıları Oluşturmak #8---------------------- -->
+<!--  https://docs.emmet.io/cheat-sheet/   emmet -->
+
+<!-- 
+    etiket isimlerini direk verebiliriz
+    + kardes oge
+    > icinde oge
+    ^ yukarı cık ve oge olustur
+    * carp -> p*3
+    lorem ??? anlamsız pargaf veriyor test etmek amacı ile
+    lorem4 -> 4 kelimelik lorem uret
+    . -> class olustur
+    # -> id
+
+
+anlatım:
+
+ + kardes oge : h1 , h2 gibi:
+ÖRNEK : h1+p+p+p+h2+p+p
+<h1></h1>
+<p></p>
+<p></p>
+<p></p>p
+<h2></h2>
+<p></p>
+<p></>
+
+ 
+ÖRNEK :  ul>li*5      
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+
+
+
+ÖRNEK :  ul>li*3^p 
+ <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ul>
+ <p></p>
+
+ÖRNEK :  ul>li*3^p+h1
+ <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ul>
+ <p></p>
+ <h1></h1>
+
+ --> 
+
+
+<!--  ul>li*3>lorem1^p*2>lorem4+h3>lorem1  => hatalı --> 
+ <ul>
+    <li>Lorem.</li>
+    <li>Dicta!</li>
+    <li>Voluptatem!</li>
+    <p>
+        Lorem ipsum dolor sit.
+        <h3>Lorem.</h3>
+    </p>
+    <p>
+        Laudantium aspernatur error assumenda.
+        <h3>Recusandae.</h3>
+    </p>
+</ul>
+
+
+
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1  -->
+<ul>
+    <li>Lorem.</li>
+    <li>Dolorum!</li>
+    <li>Sequi.</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Sequi asperiores omnis nesciunt!</p>
+<h3>Lorem.</h3>
+
+
+
+<!-- h3.#idolsun -->
+<h3 class=""></h3>#idolsun      
+
+<!-- h3.deneme>lorem1  -->
+<h3 class="deneme">Lorem.</h3>  
+
+
+<!--h3.birinci-class.ikinci-class -->
+<h3 class="birinci-class ikinci-class"></h3> 
+
+<!-- ul>li.tepki -->  
+<ul><li class="tepki"></li></ul>  
+
+
+<!-- ul>.deneme-class*4  -->
+<ul>
+    <li class="deneme-class"></li>
+    <li class="deneme-class"></li>
+    <li class="deneme-class"></li>
+    <li class="deneme-class"></li>
+</ul> 
