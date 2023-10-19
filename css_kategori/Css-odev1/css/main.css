@@ -1,0 +1,19 @@
+.blok{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.blok img{
+    width: 100%;
+    height: auto;
+}
+
+.blok-inner{
+    background-color: red;
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+}
+
